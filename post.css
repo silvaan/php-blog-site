@@ -1,0 +1,59 @@
+/*  */
+section.blog-post-area .post-image {
+    float: left;
+    width: 60%;
+    padding-right: 35px;
+    padding-top: 18px;
+}
+
+section.blog-post-area .post-text {
+    margin-right: 68px;
+    margin-left: 40px;
+}
+
+section.blog-post-area .post-text h3 {
+    margin: 10px 0 0;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+
+}
+
+section.blog-post-area .post-text h3 a {
+    font-family: Geometria;
+    font-weight: 700;
+    font-size: 40px;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.blog-post-area .post-text p {
+    color: #061e37;
+    font-family: Geometria;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 18px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+section.blog-post-area .post-text h4 {
+    margin-top: 25px;
+    padding-top: 30px;
+    position: relative;
+}
+
+section.blog-post-area .post-text h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+section.blog-post-area .post-text h4 span.author {
+    float: right
+}
+
+/*  */
